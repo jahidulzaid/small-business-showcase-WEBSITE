@@ -96,31 +96,41 @@
 
 }
 
-.fontawesome-border{
-    height: 60px;
-    width: 60px;
-    background: yellow;
-    
-    /* border: 1px solid yellow; */
+.fa-border{
+    background-color: #f0ad4e;
 }
 
 .service-contents{
-    align-items: center !important;
+    text-align: center;
+    border: 1px solid gray;
+    padding-top: 80px;
+    padding-bottom: 80px;
+
+}
+
+.check-services{
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
 .call-to-action {
-    background-image: url('img/cta-bg.jpg');
+    background-image: url('/img/cta-bg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
+    margin-top: 50px;
     padding-top: 50px;
     padding-bottom: 50px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
 
 
 .counts-section{
     padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 
@@ -128,9 +138,15 @@
     padding-top: 50px;
     text-align: center;
     padding-bottom: 50px;
+    margin-bottom: 50px;
+    
 }
 .testimonial-img{
     border: 1px solid white;
     border-radius: 50%;
-    width: 10%;
+    width: 5%;
+}
+
+.check-our-team{
+    padding-bottom: 100px;
 }
