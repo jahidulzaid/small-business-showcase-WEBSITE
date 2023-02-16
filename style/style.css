@@ -31,10 +31,8 @@
     background-image: cover;
     background-repeat: no-repeat;
     position: relative;
-    padding-top: -100px;
-    padding-bottom: -100px;
     filter: brightness(80%);
-    z-index: 2;
+    
     
     
 
@@ -81,9 +79,6 @@
     
 }
 
-.feature-section-left{
-
-}
 
 
 .fontawesome-service{
